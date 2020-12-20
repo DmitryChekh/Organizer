@@ -16,16 +16,16 @@ namespace Organizer
         {
             InitializeComponent();
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 calc = new Form2();
             calc.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 note = new Form3();
+            note.Show();
         }
     }
 }
