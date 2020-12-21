@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button_С = new System.Windows.Forms.Button();
             this.button_erase = new System.Windows.Forms.Button();
-            this.button_PlusMinus = new System.Windows.Forms.Button();
             this.button_plus = new System.Windows.Forms.Button();
             this.button_minus = new System.Windows.Forms.Button();
             this.button_9 = new System.Windows.Forms.Button();
@@ -94,21 +93,10 @@
             this.button_erase.UseVisualStyleBackColor = true;
             this.button_erase.Click += new System.EventHandler(this.button_erase_Click);
             // 
-            // button_PlusMinus
-            // 
-            this.button_PlusMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_PlusMinus.Location = new System.Drawing.Point(247, 91);
-            this.button_PlusMinus.Name = "button_PlusMinus";
-            this.button_PlusMinus.Size = new System.Drawing.Size(75, 54);
-            this.button_PlusMinus.TabIndex = 4;
-            this.button_PlusMinus.Text = "+/-";
-            this.button_PlusMinus.UseVisualStyleBackColor = true;
-            this.button_PlusMinus.Click += new System.EventHandler(this.button_PlusMinus_Click);
-            // 
             // button_plus
             // 
             this.button_plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_plus.Location = new System.Drawing.Point(366, 91);
+            this.button_plus.Location = new System.Drawing.Point(247, 91);
             this.button_plus.Name = "button_plus";
             this.button_plus.Size = new System.Drawing.Size(75, 54);
             this.button_plus.TabIndex = 5;
@@ -119,7 +107,7 @@
             // button_minus
             // 
             this.button_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_minus.Location = new System.Drawing.Point(366, 157);
+            this.button_minus.Location = new System.Drawing.Point(366, 91);
             this.button_minus.Name = "button_minus";
             this.button_minus.Size = new System.Drawing.Size(75, 54);
             this.button_minus.TabIndex = 9;
@@ -163,7 +151,7 @@
             // button_mult
             // 
             this.button_mult.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_mult.Location = new System.Drawing.Point(366, 223);
+            this.button_mult.Location = new System.Drawing.Point(366, 157);
             this.button_mult.Name = "button_mult";
             this.button_mult.Size = new System.Drawing.Size(75, 54);
             this.button_mult.TabIndex = 13;
@@ -207,7 +195,7 @@
             // button_div
             // 
             this.button_div.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_div.Location = new System.Drawing.Point(366, 289);
+            this.button_div.Location = new System.Drawing.Point(366, 223);
             this.button_div.Name = "button_div";
             this.button_div.Size = new System.Drawing.Size(75, 54);
             this.button_div.TabIndex = 17;
@@ -302,7 +290,6 @@
             this.Controls.Add(this.button_8);
             this.Controls.Add(this.button_7);
             this.Controls.Add(this.button_plus);
-            this.Controls.Add(this.button_PlusMinus);
             this.Controls.Add(this.button_erase);
             this.Controls.Add(this.button_С);
             this.Controls.Add(this.label1);
@@ -320,7 +307,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button_С;
         private System.Windows.Forms.Button button_erase;
-        private System.Windows.Forms.Button button_PlusMinus;
         private System.Windows.Forms.Button button_plus;
         private System.Windows.Forms.Button button_minus;
         private System.Windows.Forms.Button button_9;

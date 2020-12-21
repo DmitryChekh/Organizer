@@ -105,38 +105,8 @@ namespace Organizer
 
         private void button_equall_Click(object sender, EventArgs e)
         {
-            calculate();
+            Calculator.calculate();
             label1.Text = "";
-        }
-
-        private void calculate()
-        {
-            switch (count)
-            {
-                case 1:
-                    b = a + float.Parse(textBox1.Text);
-                    textBox1.Text = b.ToString();
-                    a = b;
-                    break;
-
-                case 2:
-                    b = a - float.Parse(textBox1.Text);
-                    textBox1.Text = b.ToString();
-                    a = b;
-                    break;
-                case 3:
-                    b = a * float.Parse(textBox1.Text);
-                    textBox1.Text = b.ToString();
-                    a = b;
-                    break;
-                case 4:
-                    b = a / float.Parse(textBox1.Text);
-                    textBox1.Text = b.ToString();
-                    a = b;
-                    break;
-                default:
-                    break;
-            }
         }
 
         private void button_С_Click(object sender, EventArgs e)
@@ -155,11 +125,6 @@ namespace Organizer
             {
                 textBox1.Text = textBox1.Text + text[i];
             }
-        }
-
-        private void button_PlusMinus_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void button_fract_Click(object sender, EventArgs e)
