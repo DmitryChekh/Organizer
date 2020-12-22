@@ -10,6 +10,10 @@ namespace Organizer
     class Calculate
     {
         private readonly ICalculator _calculator;
+        
+        public Calculate(ICalulator calculator) {
+            _calculator = calculator;   
+        } // И дальше используй этот сервис
 
         private void calculate()
         {
